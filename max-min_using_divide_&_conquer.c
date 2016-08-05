@@ -1,5 +1,6 @@
+//Find the maximum and minimum number using divide and conquer approach.
 #include<stdio.h>
-int a[50],max,min;
+int a[100],max,min;
 void find(int i,int n){
    int mid,max1,min1;
 
@@ -32,7 +33,7 @@ int main(){
 
    printf("Enter the number of elements: ");
    scanf("%d",&n);
-
+   
    printf("Enter elements: ");
    for(i=0;i<n;i++)
       scanf("%d",&a[i]);
