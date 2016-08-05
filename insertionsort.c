@@ -23,6 +23,7 @@ void main(){
 	printf("Enter the number of elements: ");
 	scanf("%d",&n);
 	int a[n];
+	printf("Enter elements: ");
 	for(i=0;i<n;i++)
 		scanf("%d",&a[i]);
 	insertionsort(a,n);
