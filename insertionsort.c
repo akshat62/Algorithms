@@ -1,7 +1,4 @@
-/* 1. insertion sort
-   2. quick sort
-   3. find out max-min using divide-conquer approach 
-   4. binary search using recursive */
+//insertion sort
 #include<stdio.h>
 int i;
 void insertionsort(int arr[], int n)
